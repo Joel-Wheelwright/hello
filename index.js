@@ -18,7 +18,7 @@ const app = express();
 app.use(bodyParser());
 
 app.get('/', function(req, res){
-    res.status(400);
+    res.send("hola");
 });
 
 app.get('/hello', function(req, res){
